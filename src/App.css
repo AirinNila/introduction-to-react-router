@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.forGrid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+.border {
+    border: 8px solid green;
+    padding: 5px;
+}
